@@ -1,0 +1,42 @@
+1).minimum time/cost/expense/weight/energy/whatever it is just see the word minimum and find out does the weight will change or not if yes then dijsktra otherwise BFS.
+
+2).Whenever get question like least number of steps to reach the destination think about dijkstra or bfs.
+
+3).Whenever trying out a Combinatorics type of question always think about implementing dp solution,
+if the dp solution can pass in the given time limit Ex;- codeforces Tetrahedral question
+
+4).distance between 2 points :- squareRoot( (x1-x2)^2 + (y1-y2)^2).
+
+5).Try to think DP states as the options we have in hand to choose from.
+
+//Bit manipulation
+6).XOR of two closest values are the smallest hence for finding the smallest XOR pair just sort the array and find the XOR of every i amd i+1 element.
+
+7).When we have to only care about odd and even try thinking about "bitmask".
+
+8).Also, whenever we have to match any kind of sets together again try to think about "bitmask" + "XOR"
+
+//
+
+9). Whenever question have some kind of conflict related to increasing or decreasing order of values/elements always try to think about LIS first.
+
+10). Whenever we have given limited possibilities, and we have to maximise or minimise the answer always try to brute force and try out all the possibilities.
+
+11). Sometime instead of finding the req person/element try to remove all the non-req person/elements.
+Ex-: 1).Celebrity problem.
+     2).Championship winner problem at codeforces.
+     
+
+12).If in any question we have given a string from which we have to find q queries answer and the length of the string is <= 10^4 then just generate all the possible strings and create a look-up table.
+
+///////////////////////////////////////////////////
+
+Goldbach conjecture
+13).-> Every even number greater than 2 can be written as the sum of 2 prime numbers.
+    -> Every odd number can be written as the sum of 3 odd prime numbers.
+    -> But some odd number can be written as the sum of two prime numbers in the case when |number - 2| is a prime number;
+
+14). Whenever we have to go from one point/val/state to another point/val/state in minimum number of steps/operations always think of dejsktra.
+Ex problem is:-https://leetcode.com/contest/weekly-contest-333/problems/minimum-operations-to-reduce-an-integer-to-0/
+
+15). Always check for {-MOD-} [whenever questions says check for divisibility].
