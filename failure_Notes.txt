@@ -40,3 +40,11 @@ Goldbach conjecture
 Ex problem is:-https://leetcode.com/contest/weekly-contest-333/problems/minimum-operations-to-reduce-an-integer-to-0/
 
 15). Always check for {-MOD-} [whenever questions says check for divisibility].
+
+// Strings special
+ 
+ 16. whenever solving a string questions always try to think about following ways to solve a question:-
+      a). Try doing brut-force (means try to solve the questions for all the different characters that is 26).
+      b). Think in-terms of parity (somehow try to include parity in order to find the answer).
+      c). Always think simple, if only complex approach is commng to the mind that simple means you are not able to make a very critical obersvation that is
+          required to solve the question optimally.
