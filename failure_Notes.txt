@@ -48,3 +48,14 @@ Ex problem is:-https://leetcode.com/contest/weekly-contest-333/problems/minimum-
       b). Think in-terms of parity (somehow try to include parity in order to find the answer).
       c). Always think simple, if only complex approach is commng to the mind that simple means you are not able to make a very critical obersvation that is
           required to solve the question optimally.
+
+17). Always remember that sum of natural numbers starting from 1 till an odd number is always divisible by the number till which we took the sum from Ex:-
+ 1 2 3 4 5 => sum = 15 is divisible by 5
+
+ 1 2 3 => sum = 6 divisible by 3
+
+ but that is completely opposite for the even numbers sum like:-
+
+ 1 2 3 4 => sum = 10 is not divisible by 4
+
+ 1 2 3 4 5 6 => sum = 21 is not divisible by 6
